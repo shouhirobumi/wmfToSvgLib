@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gdi">
+      <UniqueIdentifier>{54ca1de7-d831-43d9-bf03-fb80faba7da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{12ad126b-212e-402e-9a8f-3819204714b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="svg">
+      <UniqueIdentifier>{95e9e3ac-a83b-406d-b797-39112feae717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{e105dc83-8d8e-4954-95f3-36fdc1167a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wmf">
+      <UniqueIdentifier>{f9602bef-45ce-4e0d-a90c-2831dbb15300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{1a348f42-0e47-4377-91d6-697aca95e077}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gdiInfoDefine.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiUtils.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdi.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiBrush.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiFont.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiObject.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiPalette.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiPatternBrush.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiPen.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="IGdiRegion.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInput.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgBrush.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyxml2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgObject.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgDc.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgFont.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgGdi.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgPalette.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgPatternBrush.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgPen.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgRectRegion.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgRegion.h">
+      <Filter>svg</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfBrush.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfObject.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfConstants.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfFont.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfPalette.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfParseException.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfParser.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfPatternBrush.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfPen.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfRectRegion.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="WmfRegion.h">
+      <Filter>Wmf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\API_WmfToSvg.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GdiUtils.cpp">
+      <Filter>gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgBrush.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgDc.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgFont.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgGdi.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgObject.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgPalette.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgPatternBrush.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgPen.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgRectRegion.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgRegion.cpp">
+      <Filter>svg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

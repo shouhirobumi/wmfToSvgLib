@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libWmfToSvgCpp", "libWmfToSvgCpp\libWmfToSvgCpp.vcxproj", "{59538EDF-9F04-4E26-A0C3-9E017F3F9720}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{07FFF0DB-704D-499D-9C1D-0E100105C529}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59538EDF-9F04-4E26-A0C3-9E017F3F9720} = {59538EDF-9F04-4E26-A0C3-9E017F3F9720}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59538EDF-9F04-4E26-A0C3-9E017F3F9720}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59538EDF-9F04-4E26-A0C3-9E017F3F9720}.Debug|Win32.Build.0 = Debug|Win32
+		{59538EDF-9F04-4E26-A0C3-9E017F3F9720}.Release|Win32.ActiveCfg = Release|Win32
+		{59538EDF-9F04-4E26-A0C3-9E017F3F9720}.Release|Win32.Build.0 = Release|Win32
+		{07FFF0DB-704D-499D-9C1D-0E100105C529}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07FFF0DB-704D-499D-9C1D-0E100105C529}.Debug|Win32.Build.0 = Debug|Win32
+		{07FFF0DB-704D-499D-9C1D-0E100105C529}.Release|Win32.ActiveCfg = Release|Win32
+		{07FFF0DB-704D-499D-9C1D-0E100105C529}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
