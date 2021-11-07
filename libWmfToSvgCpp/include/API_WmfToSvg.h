@@ -2,10 +2,10 @@
 #define _API_WMFTOSVG_H_
 
 ///!
-// function:	wmf×ªsvg×ªÂë¿â½Ó¿Úº¯Êı
-// param:		input, ĞèÒª×ªÂëµÄ wmf ÎÄ¼şÃû
-// param:		output, ×ªÂëºóµÄFILEÎÄ¼şÁ÷£¬´ËÎÄ¼şÁ÷ÔÚµ÷ÓÃº¯ÊıÀï´ò¿ª
-// return:		Õı³£·µ»Ø 0 ,ÎÄ¼şÁ÷Ğ´Èë´íÎó ·µ»Ø -1, ×ªÂë´íÎó£¬·µ»Ø -2
+// function:	wmfè½¬svgè½¬ç åº“æ¥å£å‡½æ•°
+// param:		input, éœ€è¦è½¬ç çš„ wmf æ–‡ä»¶å
+// param:		output, è½¬ç åçš„FILEæ–‡ä»¶æµï¼Œæ­¤æ–‡ä»¶æµåœ¨è°ƒç”¨å‡½æ•°é‡Œæ‰“å¼€
+// return:		æ­£å¸¸è¿”å› 0 ,æ–‡ä»¶æµå†™å…¥é”™è¯¯ è¿”å› -1, è½¬ç é”™è¯¯ï¼Œè¿”å› -2
 ///!
 extern "C" int inputWmfFile(const char* input, void* output);
 
